@@ -27,7 +27,12 @@ func StartGame() {
 
 	//take a shot
 	rowNumber, colNumber := shoot()
+	fmt.Println(theGrid.Rows[rowNumber].Cells[colNumber])
 
+	rowNumber, colNumber = shoot()
+	fmt.Println(theGrid.Rows[rowNumber].Cells[colNumber])
+
+	rowNumber, colNumber = shoot()
 	fmt.Println(theGrid.Rows[rowNumber].Cells[colNumber])
 
 }
